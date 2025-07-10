@@ -1,29 +1,9 @@
 Introduction
 ------------
 
-An EOSC Service is an asset made available by means of the EOSC system and
-according to the EOSC Rules of Participation to EOSC End-Users to perform a
-process useful to deliver value in the context of the EOSC. EOSC Service
-has specialization like Data Sources which includes Research Products and
-any other asset.
+A Service is a digital resource or capability that supports research activities, accessible via EOSC Nodes, and accessible through APIs and/or web interfaces. 
+Examples of services include computing, storage, analytics, access to resources, data management services, scientific workflow engines, Virtual Research Environments.
 
-Data sources are EOSC Services and a subclass of EOSC Services whose specific
-purpose is to offer deposition, preservation, curation, discovery, access,
-and usage statistics functionalities to collections of EOSC Research Products
-from a thematic or cross-discipline perspective.
+A Data Source is a special kind of EOSC Service that offers storage, preservation, discovery, and access to Research Products metadata and files (if available). Examples are thematic repositories (e.g. PANGAEA data archive), institutional repositories (e.g. HAL French repository), catch-all repositories (e.g. Zenodo.org), software repositories (e.g. GitHub), data source registries (e.g. re3data.org, FAIRSharing.og), adapters catalogues (e.g. EOSC Beyond Adapter Catalogue), Training material (e.g. OpenPlato.eu), etc. 
 
-EOSC Data Sources include Repositories, Scientific Databases, Aggregators,
-Journal sites, Publisher sites, and Research Information Systems (CRIS).
-Data sources store, preserve, and support discovery and access to metadata,
-files, and data relative to publications, research data, research software,
-and other research products; Data sources can be “hybrid” in terms of content,
-as they may offer access to a variety of research products, and in terms of
-intended users, and jurisdiction (i.e. target audience).
-
-
-Versions
-^^^^^^^^
-
-- 4.0, June 2022
-
-- 3.0
+A Catalogue is a Data Source that is responsible for an EOSC Node to collect (via aggregation activities or manual ingestion) and provide access to metadata records about EOSC Resources that fall under the jurisdiction of the EOSC Node. EOSC Node catalogues typically (but not always) do not offer access to content but provide metadata with links to the Data Sources that offer access to content. Examples include the CESSDA Data Catalogue and the NIFOS catalogue, among others.
